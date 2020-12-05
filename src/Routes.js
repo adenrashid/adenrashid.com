@@ -6,7 +6,7 @@ import {
   Link
 } from "react-router-dom";
 import Home from './Home';
-import TechStack from './TechStack';
+import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 
@@ -20,7 +20,7 @@ export default function Routes() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/techstack">Tech Stack</Link>
+              <Link to="/about">Tech Stack</Link>
             </li>
             <li>
               <Link to="/projects">Projects</Link>
@@ -32,8 +32,8 @@ export default function Routes() {
         </nav>
 
         <Switch>
-          <Route path="/techstack">
-            <TechStack />
+          <Route path="/about">
+            <About />
           </Route>
           <Route path="/projects">
             <Projects />

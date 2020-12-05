@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.home-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 25px;
+  color: rgba(1, 1, 1, 0.7);
+  align-items: center;
+}
+
+.type-writer {
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.photo {
+  border-radius: 5px;
+  margin: 50px;
+  width: 70%;
+}
