@@ -14,7 +14,7 @@ export default function Home() {
         </div>
         <div class="type-writer">
           <Typical
-            steps={['Hi there :)', 2000, 'My name is Aden Rashid.', 2000, `I'm a Dentist turned Software Engineer based in Melbourne.`, 2000, 'Feel free to get in touch...', 2000, 'Thanks for stopping by!', 2000]}
+            steps={['Hi there :)', 2000, 'My name is Aden Rashid.', 2000, `I'm a Dentist turned Software Engineer based in Melbourne.`, 2000, 'Thanks for stopping by!', 2000]}
             loop={Infinity}
             wrapper="p"
           />
@@ -31,7 +31,6 @@ export default function Home() {
         <DiIcons.DiHtml5 />
         <DiIcons.DiCss3 />
       </div>
-      <footer className="footer">This site was built using React. Powered by Aden's 🧠  &nbsp; &copy; 2020.</footer>
     </div>
     )
 }

@@ -27,5 +27,5 @@ export const SidebarData = [
     path: '/contact',
     icon: <AiIcons.AiOutlineContacts />,
     cName: 'nav-text'
-  }
+  },
 ]

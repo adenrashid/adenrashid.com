@@ -16,6 +16,14 @@ function App() {
           <Route path='/about' component={About}/>
           <Route path='/projects' component={Projects}/>
           <Route path='/contact' component={Contact}/>
+          <Route path='/github' component={() => { 
+     window.location.href = 'https://github.com/adenrashid'; 
+     return null;
+}}/>
+          <Route path='/linkedin' component={() => { 
+     window.location.href = 'https://www.linkedin.com/in/adenrashid/'; 
+     return null;
+}}/>
         </Switch>
       </Router>
       {/* <Routes /> */}
