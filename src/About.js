@@ -1,7 +1,32 @@
+import * as React from "react";
+import { useDencrypt } from "use-dencrypt-effect";
+
+const values = ["Hey, I'm Aden!", "Here's a bit about me."];
+
 export default function About() {
+
+  const Decryption = () => {
+    const { result, dencrypt } = useDencrypt();
+  
+    React.useEffect(() => {
+      let i = 0;
+  
+      const action = setInterval(() => {
+        dencrypt(values[i]);
+  
+        i = i === values.length - 1 ? 0 : i + 1;
+      }, 4000);
+  
+      return () => clearInterval(action);
+    }, []);
+  
+    return <div>{result}</div>;
+  };
+
   return (
     <div>
-      <h2 className="about-heading">Hey! I'm Aden.</h2> 
+      
+      <h2 className="about-heading">{Decryption()}</h2> 
       <p className="about-para">
         I have always enjoyed technology and computing. Ever since I was young, my brother and I would argue about who would get to spend more time on our family desktop - whether it was to browse the internet, play games, solve puzzles, or learn more about what a computer could do. 
         <br/><br/>
