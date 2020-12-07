@@ -1,5 +1,6 @@
 import React from 'react';
-import Typical from 'react-typical';
+// import Typical from 'react-typical';
+import Typed from 'react-typed';
 import './Home.css';
 import photo from '/Users/adenrashid/Documents/VS Code/adenrashid.com/src/photo.jpg';
 import * as DiIcons from "react-icons/di";
@@ -13,11 +14,12 @@ export default function Home() {
           <img className="photo" src={photo} alt="aden rashid"/>
         </div>
         <div class="type-writer">
-          <Typical
-            steps={['Hi there :)', 2000, 'My name is Aden Rashid.', 2000, `I'm a Dentist turned Software Engineer based in Melbourne.`, 2000, 'Thanks for stopping by!', 2000]}
-            loop={Infinity}
-            wrapper="p"
-          />
+          <Typed
+            strings={['Hi there :)', 'My name is Aden Rashid.', `I'm a Software Engineer based in Melbourne.`, 'Click on the menu at the top left to see more...', 'Thanks for stopping by!']}
+            typeSpeed={40}
+            backSpeed={40}
+            loop >
+          </Typed>
         </div>
       </div>
       <div className="techstack">
