@@ -15,6 +15,7 @@
   padding: 50px;
   margin: 0 auto;
   font-weight: 300;
+  color: rgba(1, 1, 1, 0.8);
 }
 
 .photo {
@@ -129,6 +130,33 @@ span {
   font-weight: 300;
 }
 
+.project-heading {
+  color: rgba(1, 1, 1, 0.7);
+  padding: 50px 50px 10px 50px;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.project-title {
+  color: rgba(1, 1, 1, 0.7);
+  padding: 10px 50px 0 50px;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: rgba(1, 1, 1, 0.8);
+  font-weight: 400;
+}
+
+.project-p {
+  color: rgba(1, 1, 1, 0.9);
+  padding: 10px 50px 10px 50px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
 .contact-h2 {
   display: block;
   font-weight: 300;
@@ -146,4 +174,40 @@ span {
   text-decoration: none;
   color: rgba(1, 1, 1, 0.7);
   font-size: 50px;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+.slider-div {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.slides {
+  position: relative;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+.slides .slick-prev {
+  left: 5%;
+}
+
+.slides .slick-next {
+  right: 5%;
+}
+
+.slider-imgs {
+  width: 100%;
+  border-radius: 5px;
 }
