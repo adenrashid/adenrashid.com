@@ -144,6 +144,11 @@ export default function Projects() {
 
         <div className="individual-item">
           <h2 className="project-title">And this portfolio website of course.</h2>
+          <p className="project-p">Made with React.
+          <br/><br/>
+          Tech used: React, Javascript, HTML, CSS.
+          <br/><br/>
+          Click <a href="https://github.com/adenrashid/adenrashid.com" target="_blank" className="project-link">Here</a> for Source Code.</p>
         </div>
 
       </div>

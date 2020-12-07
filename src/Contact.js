@@ -1,4 +1,5 @@
 import * as AiIcons from 'react-icons/ai';
+import resume from './images/AdenRashidResume.pdf';
 
 export default function Contact() {
   return (
@@ -19,7 +20,7 @@ export default function Contact() {
         <a href="https://www.linkedin.com/in/adenrashid/" target="_blank">
           <AiIcons.AiFillLinkedin />
         </a>
-        <a href="src/AdenRashidResume.pdf" download>
+        <a href={resume} download>
           <AiIcons.AiOutlineCloudDownload />
         </a>
       </div>
