@@ -32,7 +32,7 @@ export default function About() {
         <br/><br/>
         As I got older I discovered Myspace. I would spend countless hours designing my webpage, changing the HTML, customising the CSS, and crafting layouts for other users. I also loved playing sandbox games in my spare time, because they gave me the creative freedom to build whatever I wanted and enjoy the end product.
         <br/><br/>
-        Fast forward a bit. I studied dentistry at university and worked as a dentist for 3 years. Even after this time, I still felt I needed to pursue the passion I always had for tech in a more impactful way. 
+        Fast forward a bit. I studied dentistry at university and worked as a dentist for 3 years. I thought this career path would be the perfect blend of creativity and problem-solving. I found though that my desire to be challenged at work every day wasn't being fulfilled. I wanted a career where I could use my analytical skills to problem solve, and do it innovatively and creatively. I also felt that I needed to pursue the passion I always had for tech in a more impactful way. 
         <br/><br/>
         So I decided to learn programming. 
         <br/><br/>
